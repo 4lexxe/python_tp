@@ -1,0 +1,134 @@
+###################################################################################
+
+diapo 1
+
+Este enfoque no solo facilita la comprensión y el mantenimiento del código, sino que también promueve la reutilización y la colaboración entre desarrolladores. 
+
+Al trabajar con módulos independientes, es posible desarrollar, probar y modificar partes del programa sin afectar al sistema completo, 
+
+lo que mejora notablemente la eficiencia del desarrollo y la calidad del software final.
+
+###################################################################################
+
+diapo 2
+
+En otras palabras, la programación modular actúa como un salvavidas ante el caos potencial del desarrollo. 
+
+Al dividir el problema y fomentar la reutilización del código, se evita caer en una “crisis” típica de los programas monolíticos: 
+
+esos donde un pequeño cambio puede desencadenar errores imprevisibles. 
+
+Modularizar es, en esencia, poner orden antes de que reine el descontrol.
+
+-------
+ignorar extra
+---------
+Un programa monolítico es aquel que está construido como una sola unidad grande, sin divisiones claras entre sus partes. Todo el código está muy interconectado y mezclado, lo que significa que:
+-Si cambiás una parte, podés romper otra sin querer.
+-Es difícil de entender y mantener.
+-No se puede reutilizar fácilmente.
+-Colaborar en equipo se vuelve más complicado.
+
+En cambio, con programación modular, el código se divide en módulos o partes independientes (como funciones, clases o archivos separados), lo que lo hace mucho más organizado y manejable.
+
+###################################################################################
+
+diapo 3
+
+Más allá del contexto histórico, la llamada “crisis del software” marcó un antes y un después en cómo pensamos el desarrollo. 
+
+No se trataba solo de escribir código que funcionara, sino de entender que el software es una construcción compleja que requiere planificación, estructura y disciplina, al igual que cualquier otra ingeniería.
+
+###################################################################################
+
+diapo 4
+
+Estos factores evidencian que el problema no era solo técnico, sino también organizacional y metodológico. 
+La falta de previsión, herramientas adecuadas y buenas prácticas hizo que muchos proyectos se volvieran inmanejables. 
+
+Es en este contexto donde enfoques como la programación modular emergen no solo como una mejora técnica, sino como una respuesta estratégica para enfrentar la incertidumbre, 
+
+controlar la complejidad y recuperar la confianza en el desarrollo de software. Porque al final, programar bien no es solo cuestión de saber código, sino de pensar en cómo construir sistemas que duren, se entiendan y evolucionen sin romperse.
+
+###################################################################################
+
+diapo 5
+
+En conjunto, estas ventajas convierten a la modularización en una práctica fundamental para el desarrollo de software moderno. 
+No se trata solo de dividir por dividir, sino de construir sistemas más ordenados, comprensibles y sostenibles a lo largo del tiempo. 
+La modularización establece una base sólida sobre la cual se pueden escalar proyectos, incorporar nuevos integrantes al equipo, adaptarse a cambios y, 
+sobre todo, garantizar que el software evolucione sin perder su integridad ni su propósito original.
+
+###################################################################################
+
+diapo 6
+
+Si bien la modularización ofrece numerosos beneficios, no está exenta de desafíos. Estos aspectos resaltan la importancia de una buena planificación, comunicación entre desarrolladores y documentación clara. La clave está en entender que modularizar no es simplemente separar, sino coordinar con precisión las partes de un sistema para que trabajen en armonía. Con buenas prácticas, estas dificultades pueden convertirse en oportunidades para mejorar la calidad y la colaboración en los proyectos.
+
+###################################################################################
+
+diapo 7
+
+El enfoque top-down refleja el mismo principio que sustenta la modularización: abordar la complejidad a través de la organización progresiva. No solo ayuda a mantener una visión clara del sistema completo, sino que también guía el desarrollo paso a paso, evitando errores comunes derivados de la improvisación o la falta de estructura. En definitiva, es una herramienta clave para transformar ideas abstractas en soluciones concretas,
+
+
+----
+en parte se refiere al proceso de tomar conceptos o problemas generales y vagos (las "ideas abstractas") y convertirlos en soluciones claras y detalladas que puedan implementarse de forma práctica y efectiva (las "soluciones concretas").
+
+Por ejemplo, cuando se empieza con un proyecto complejo, lo primero que se tiene son ideas generales sobre lo que se quiere lograr, pero esas ideas aún no están suficientemente definidas para poder ser programadas. Con un enfoque como el top-down, descompones esas ideas generales en módulos más pequeños y específicos, que luego se pueden trabajar, programar y probar por separado.
+-----
+ manteniendo siempre el control sobre el crecimiento y la coherencia del software.
+
+###################################################################################
+
+diapo 8
+
+De esta manera, el diseño top-down permite una descomposición lógica y gradual del proyecto, asegurando que cada etapa esté claramente definida y controlada. Esto facilita la implementación y ayuda a mantener el enfoque, evitando que el proyecto se desvíe de sus objetivos iniciales.
+
+###################################################################################
+
+diapo 9
+
+una función es un bloque de código que realiza una tarea específica y puede ser reutilizado en varias partes de un programa. Una función toma entradas (también conocidas como argumentos o parámetros), 
+
+Los módulos de función en Python permiten organizar y reutilizar código de manera eficiente. Al encapsular una tarea en una función, se facilita la legibilidad y mantenibilidad del código, además de permitir su reutilización en diferentes partes del programa. Con una correcta implementación de funciones, el código se vuelve más modular, menos propenso a errores y mucho más fácil de depurar y expandir.
+
+---
+extra
+….
+
+El cuerpo de una función en Python es el bloque de código que se ejecuta cuando se llama a la función. 
+
+Está indentado debajo de la declaración def y puede contener instrucciones que definan el comportamiento de la función, como cálculos, condiciones, ciclos, entre otros. 
+
+Si la función tiene un valor de retorno, se utiliza la palabra clave return para devolver ese valor.
+
+
+()
+
+los paréntesis en una función pueden contener parámetros o argumentos que la función necesita para ejecutarse. 
+
+Los parámetros son variables que la función usa para recibir valores cuando se le llama.
+
+
+--.---
+Parámetros: Son las variables declaradas en la función que definen los datos de entrada.
+
+Argumentos: Son los valores reales que se pasan a la función cuando se llama.
+
+
+
+Por ejemplo:
+
+def saludar(nombre, edad):
+    print(f"Hola, {nombre}. Tienes {edad} años.")
+
+Aquí:
+nombre y edad son parámetros.
+Cuando llamas a la función, debes pasar los argumentos correspondientes, como en saludar("Juan", 25).
+
+
+Si una función no necesita parámetros, los paréntesis se dejan vacíos:
+
+def decir_hola():
+    print("¡Hola!")
