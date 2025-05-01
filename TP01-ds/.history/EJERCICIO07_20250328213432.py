@@ -1,0 +1,2 @@
+radianes = float(input("INgrese el valor en radianes: "))
+math = 3.1416

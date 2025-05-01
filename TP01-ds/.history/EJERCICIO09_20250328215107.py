@@ -1,0 +1,5 @@
+
+
+
+IMC = peso/(altura**2)
+
